@@ -33,8 +33,6 @@ docker-compose exec php ash
 /var/www $ php artisan key:generate
 ```
 
-`.gitignore`にsrcディレクトリが指定されているので削除すること。
-
 ## Mysql
 
 | | |
