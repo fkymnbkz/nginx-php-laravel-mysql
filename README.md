@@ -29,6 +29,7 @@ docker-compose build
 docker-compose up -d
 docker-compose exec php ash
 /var/www $ composer install
+/ver/www $ cp .env.example .env
 /var/www $ php artisan key:generate
 ```
 
